@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+.intro {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  background: #444;
+  color: #f4f4f4;
+  padding: 0rem 5.6rem;
+  z-index: -2; 
+}
+
+.wc {
+  padding-top:0.7em;
+  padding-left: 0.5em;
+}
