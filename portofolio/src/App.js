@@ -1,11 +1,16 @@
-import React from 'react';
+import React, {Component} from 'react';
 import Tachyons from 'tachyons';
+
 import About from './components/About';
-//import ProjectContainer from './containers/ProjectContainer';
+import ProjectContainer from './containers/ProjectContainer';
 import Project from './components/Project.js';
 import './App.css';
 
-function App() {
+class App extends Component{
+
+
+render() {
+  
   return (
     <div>
         <div className="intro wh-100 tc athelas">
@@ -14,15 +19,14 @@ function App() {
         </div> 
         
         <About />
-        { //<ProjectContainer> 
-        }
-          <Project/>
-               {    // </ProjectContainer>
-                // <Contact/>    
-              }
+        <ProjectContainer /> 
+              
+                 
+              
 
     </div>
   );
+}
 }
 
 export default App;
