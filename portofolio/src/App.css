@@ -17,3 +17,43 @@
   padding-top:0.7em;
   padding-left: 0.5em;
 }
+
+.aa {
+  display: flex;
+  align-items: center;
+}
+
+.arrows {
+  border:none;
+  background-color: transparent;
+  font-size: 5em;
+  color: rgba(2,2,2, 0.9);
+}
+
+.skill {
+  font-size: 10em;
+}
+
+.skills {
+  margin: 6em 0 ;
+  padding: 6em;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 80%);
+  background-color: #798;
+}
+
+.contact {
+  dysplay:flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+
+.scMed {
+  font-size: 2em;
+  color: rgba(0,0,0,0.8);
+  padding: 0.25em 0.25em;
+}

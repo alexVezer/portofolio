@@ -37,16 +37,20 @@ const {projects, project} = this.state;
 
 	return (
 		<div className="flex">
-			<div className="w-10 tc">
-					<button onClick={ () =>this.prevProject()}
-					disabled={project.index === 1} > prev </button>
+			<div className="aa w-10 tc">
+					<button className="arrows dim" onClick={ () =>this.prevProject()}
+					disabled={project.index === 1} > 
+					<i class="fas fa-chevron-left"></i>
+					</button>
 			</div> 
 
 				<Project project={project}/>
 			
-			<div className="w-10 tc">
-					<button onClick={() =>this.nextProject()} 
-					disabled= {project.index===data.projects.length} > next </button>
+			<div className="w-10 tc aa">
+					<button className="arrows dim" onClick={() =>this.nextProject()} 
+					disabled= {project.index===data.projects.length} > 
+					<i class="fas fa-chevron-right"></i> 
+					</button>
 			</div> 
 		</div>
 		

@@ -3,7 +3,9 @@ import Tachyons from 'tachyons';
 
 import About from './components/About';
 import ProjectContainer from './containers/ProjectContainer';
-import Project from './components/Project.js';
+import Project from './components/Project';
+import Skills from './components/Skills';
+import Contact from './components/Contact';
 import './App.css';
 
 class App extends Component{
@@ -20,8 +22,8 @@ render() {
         
         <About />
         <ProjectContainer /> 
-              
-                 
+        <Skills/>
+        <Contact/> 
               
 
     </div>
